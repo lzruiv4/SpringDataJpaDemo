@@ -59,6 +59,7 @@ public class Customer {
      * 或者使用@mappedBy
      * @mappedBy:  一般设置在被放弃一方，等于对方的属性名
      * */
+    /****/
 //    @OneToOne(cascade = CascadeType.ALL,
 //              fetch = FetchType.LAZY,
 //              orphanRemoval = true,
