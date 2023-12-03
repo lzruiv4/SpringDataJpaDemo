@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35df4309-8504-448b-b13f-6c3b76d69c6f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YZTynBxlY9PtT0G3rk0CVIOWKr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zraylam/Desktop/Zray_Local/Code/Java/Intellij/springData/spring-boot-jpa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.CustomerNameMethodTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lam" />
+      <option name="MAIN_CLASS_NAME" value="org.lam.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerNameMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lam.repo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lam.repo" />
+      <option name="MAIN_CLASS_NAME" value="org.lam.repo.CustomerNameMethodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerNameMethodTest" />
+        <item itemvalue="JUnit.AppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35df4309-8504-448b-b13f-6c3b76d69c6f" name="Changes" comment="" />
+      <created>1700732358560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700732358560</updated>
+      <workItem from="1700732359925" duration="2014000" />
+      <workItem from="1700765476480" duration="48000" />
+      <workItem from="1701187121328" duration="84000" />
+      <workItem from="1701187220539" duration="20000" />
+      <workItem from="1701187251055" duration="119000" />
+      <workItem from="1701633446246" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
