@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            https://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/data/jpa
+                            https://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+                            http://www.springframework.org/schema/tx
+                            http://www.springframework.org/schema/tx/spring-tx.xsd"
+>
+
+    <jpa:repositories base-package="org.lam.repositories"
+                      entity-manager-factory-ref="entityManagerFactory"
+                      transaction-manager-ref="transactionManager"
+    />
+
+    <!-- EntityManagerFactory -->
+    <bean name="entityManagerFactory"
+          class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="jpaVendorAdapter">
+            <!-- 设置 Hibernate 的实现 -->
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <!-- Hibernate 的配置在设置一遍
+                     参考 jpa-hibernate/src/main/resources/hibernate.cfg.xml
+                     同时参考官方文档，5.1.1，
+                     vendorAdapter.setGenerateDdl 是指 name="hbm2ddl.auto"
+                     但是官方文档只将其属性设置为boolean了，所以 none是false，其他情况是true
+                 -->
+                <property name="generateDdl" value="true"/>
+                <property name="showSql" value="true"/>
+            </bean>
+        </property>
+        <property name="packagesToScan" value="org.lam.pojo"/>
+        <property name="dataSource" ref="dataSource">
+<!--            <bean class="com.alibaba.druid.pool.DruidDataSource">-->
+<!--                <property name="driverClassName" value="org.postgresql.Driver"></property>-->
+<!--                <property name="url" value="jdbc:postgresql://localhost:5432/springData"></property>-->
+<!--                <property name="username" value="zraylam"></property>-->
+<!--                <property name="password" value="123"></property>-->
+<!--            </bean>-->
+        </property>
+    </bean>
+
+    <bean class="com.alibaba.druid.pool.DruidDataSource" name="dataSource">
+        <property name="driverClassName" value="org.h2.Driver"/>
+        <property name="url" value="jdbc:h2:mem:testJpaH2"/>
+        <property name="username" value="zraylam"/>
+        <property name="password" value="123"/>
+    </bean>
+
+    <!-- 声明事务 -->
+    <bean class="org.springframework.orm.jpa.JpaTransactionManager" name="transactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <!-- 启动注解方式的声明式事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+</beans>
