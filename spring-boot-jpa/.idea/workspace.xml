@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35df4309-8504-448b-b13f-6c3b76d69c6f" name="Changes" comment="" />
+    <list default="true" id="35df4309-8504-448b-b13f-6c3b76d69c6f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lam/pojo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lam/pojo/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lam/repositories/CustomerPagingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lam/repositories/CustomerPagingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/lam/pojo/tableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/lam/pojo/tableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/lam/repo/CustomerPagingJPQLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/lam/repo/CustomerPagingJPQLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/lam/repo/CustomerSpringDataJpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/lam/repo/CustomerSpringDataJpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/spring-test.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -88,6 +99,7 @@
       <workItem from="1701187220539" duration="20000" />
       <workItem from="1701187251055" duration="119000" />
       <workItem from="1701633446246" duration="15000" />
+      <workItem from="1702470313931" duration="7000" />
     </task>
     <servers />
   </component>

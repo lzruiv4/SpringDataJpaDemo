@@ -24,6 +24,7 @@ public class tableTest {
         Customer customer = new Customer();
         customer.setCustomerName("Lin");
         customer.setCustomerAddress("SWA");
+//        customer.setCustomerId(UUID.fromString("TEST_ID"));
 
         Account account = new Account();
         account.setState(90.99);
@@ -41,7 +42,7 @@ public class tableTest {
      * */
     @Transactional(readOnly = true) //搭配懒加载使用
     public void testOneToOneRead() {
-        System.out.println(repo.findById(UUID.fromString("ecc0fbf3-bc78-4276-958a-dfa93a5287a8")));
+        System.out.println(repo.findById(UUID.fromString("TEST_ID")));
     }
 
     @Test

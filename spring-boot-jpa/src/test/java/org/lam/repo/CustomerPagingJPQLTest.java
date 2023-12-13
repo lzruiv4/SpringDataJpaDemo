@@ -14,11 +14,11 @@ public class CustomerPagingJPQLTest {
 
     @Autowired
     CustomerPagingRepository repo;
-
-    @Test
-    public void testReadWithNative() {
-        System.out.println(repo.findCustomerByNameWithNative("LL"));
-    }
+//
+//    @Test
+//    public void testReadWithNative() {
+//        System.out.println(repo.findCustomerByNameWithNative("LL"));
+//    }
 
 //    @Test
 //    public void testRead() {

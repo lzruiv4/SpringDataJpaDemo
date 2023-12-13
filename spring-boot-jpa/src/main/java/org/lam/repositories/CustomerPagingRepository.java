@@ -1,8 +1,6 @@
 package org.lam.repositories;
 
-import jakarta.transaction.Transactional;
 import org.lam.pojo.Customer;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
@@ -11,9 +9,9 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface CustomerPagingRepository extends PagingAndSortingRepository<Customer, UUID> {
-
-    @Query(value = "select * from customers where cName =:cName", nativeQuery = true)
-    Optional<Customer> findCustomerByNameWithNative(@Param("cName") String customerName);
+//
+//    @Query(value = "select * from customers where cName =:cName", nativeQuery = true)
+//    Optional<Customer> findCustomerByNameWithNative(@Param("cName") String customerName);
 
 //    @Transactional
 //    @Modifying

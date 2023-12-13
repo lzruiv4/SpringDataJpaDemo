@@ -17,8 +17,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 
-//@ContextConfiguration(classes = ApplicationConfig.class)   //基于junit4 spring 单元测试，这里记得spring.xml前面有一个斜杆
-@ContextConfiguration("/spring.xml")
+@ContextConfiguration(classes = ApplicationConfig.class)   //基于junit4 spring 单元测试，这里记得spring.xml前面有一个斜杆
+//@ContextConfiguration("/spring.xml")
 @RunWith(SpringJUnit4ClassRunner.class)
 public class CustomerSpringDataJpaTest {
 

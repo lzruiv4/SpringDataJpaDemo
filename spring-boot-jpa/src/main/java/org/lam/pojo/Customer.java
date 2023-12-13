@@ -22,11 +22,11 @@ public class Customer {
      *          GenerationType.AUTO : 由程序自动的帮助我们选择主键生成策略
      *
      * @Column: 配置属性和字段的映射关系
-     *      name: 数据库表中字段的名称
+     *      name: 数据库表中字段的名称xs
      * */
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "cId")
     private UUID customerId;
 
